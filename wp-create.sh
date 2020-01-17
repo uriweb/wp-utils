@@ -1,12 +1,13 @@
 #!/bin/bash
 
-# This script takes a single argument, the slug of the new WordPres site
+# This script takes two arguments, the slug of the new WordPres site, and the site's title
 
 if [[ $# -eq 0 ]] ; then
 	echo 'No arguments provided'
 	exit 0
 fi
 
+# Import the settings
 . settings.conf
 
 SLUG=$1
