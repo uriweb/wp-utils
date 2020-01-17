@@ -17,4 +17,4 @@ it creates a site and outfits with the default configuration
 
 the script takes three arguments:  site slug, user name, and role
 it adds an existing user to the specified site with the specified role
-sh wp-add-user.sh "SITESLUG" "USERNAME" "ROLE"
+`sh wp-add-user.sh "SITESLUG" "USERNAME" "ROLE"`
