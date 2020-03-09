@@ -16,7 +16,7 @@ SITEURL="$BASEURL$SLUG"
 
 cd $PATHTOWORDPRESS
  
-wp site create --slug=$SLUG
+wp site create --slug=$SLUG --email="wordpress@etal.uri.edu"
 
 # Set options
 wp option update uploads_use_yearmonth_folders 0 --url="$SITEURL"
