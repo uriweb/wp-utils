@@ -1,6 +1,8 @@
 # wp-utils
 
 A collection of bash scripts to make it easier to manage our instance of WordPress
+
+> ⚠︎ Note: These scripts became obsolete on November 30, 2022.  Kept for reference and posterity.
  
 ## Getting Started
 
